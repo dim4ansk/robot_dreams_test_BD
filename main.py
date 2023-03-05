@@ -1,6 +1,6 @@
 def func(a, b):
-    return a+b
+    return f" Your result {a+b}"
 
 
 if __name__ == "__main__":
-    print(func(5, 3))
+    print(func(int(input("Enter your first number: ")), int(input("Enter your second number: "))))
