@@ -9,4 +9,3 @@ match value:
         print(f"Your value is of type str")
     case value if isinstance(float(value), float):
         print(f"Your value is of type float")
-
