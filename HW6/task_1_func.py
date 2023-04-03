@@ -7,7 +7,7 @@ def exponentiation(num, st):
 print(exponentiation(float(input("Enter num: ")), float(input("Enter power value: "))))
 
 
-# ===============================================  TASK 2 =============================================
+# ===============================================  TASK 2  =============================================
 
 def super_sum(*args):
     return sum(args)
